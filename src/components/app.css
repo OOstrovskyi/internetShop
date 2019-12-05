@@ -1,0 +1,31 @@
+h1 {
+  color: #27aedb;
+  text-align: center;
+}
+
+div.product {
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px;
+  padding: 10px;
+  float:left;
+  width:46%;
+}
+
+.product img{
+  display:block;
+  max-width:90%;
+  height:auto;
+  border:10px solid #eee;
+}
+
+
+div.footer {
+  width: 100%;
+  float:left;
+}
+
+p {
+  margin: 5px;
+}

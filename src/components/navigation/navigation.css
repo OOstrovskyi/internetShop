@@ -1,0 +1,27 @@
+button.menu{
+  border-radius: 0.3rem;
+  border-width: 0;
+  color: #44B;
+  font-size: 1.6rem;
+  outline-width: 0;
+  cursor: pointer;
+  
+  margin: 1rem;
+}
+button.menu:hover{
+  opacity: 0.7;
+}
+
+button.menu:before{
+  content: '';
+  display: inline-block;
+  background-image: url(https://i.imgur.com/MCnjU2q.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 2rem;
+  height: 2rem;
+}
+
+div.menu{
+  position: relative;
+}
